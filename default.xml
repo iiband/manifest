@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="origin" fetch="." />
+  
+  <default revision="master"
+           remote="origin"
+           sync-j="4" />
+
+  <project path="app/5670" name="5670" groups="app,mova" />
+
+  <project path="infra/manifest" name="infra-manifest" groups="infra" >
+    <copyfile src="README.md" dest="README.md" />
+  </project>
+
+  <!-- <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" /> -->
+</manifest>
