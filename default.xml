@@ -8,7 +8,7 @@
 
   <project path="app/5670" name="5670" groups="app,mova" />
 
-  <project path="infra/manifest" name="infra-manifest" groups="infra" >
+  <project path="infra/manifest" name="manifest" groups="infra" >
     <copyfile src="README.md" dest="README.md" />
   </project>
 
