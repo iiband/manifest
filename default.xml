@@ -7,6 +7,7 @@
            sync-j="4" />
 
   <project path="app/5670" name="5670" groups="app,mova" />
+  <project path="app/notka" name="notka" groups="app" />
 
   <project path="infra/manifest" name="manifest" groups="infra" >
     <copyfile src="README.md" dest="README.md" />
